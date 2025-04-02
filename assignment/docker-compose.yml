@@ -1,0 +1,46 @@
+version: '3.9'
+services:
+  order-processor:
+    build: .
+    container_name: Order_event_processor
+    depends_on:
+      - postgres
+      - rabbitmq
+    command: dotnet test Test
+    environment:
+      - RabbitMQ__HostName=rabbitmq
+    networks:
+      - app_network
+
+  postgres:
+    image: postgres:15
+    container_name: postgres_db
+    hostname: postgres_db
+    restart: always
+    environment:
+      POSTGRES_DB: orders_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    networks:
+      - app_network
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database:/docker-entrypoint-initdb.d
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    hostname: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    networks:
+      - app_network
+
+networks:
+  app_network:
+
+volumes:
+  postgres_data:

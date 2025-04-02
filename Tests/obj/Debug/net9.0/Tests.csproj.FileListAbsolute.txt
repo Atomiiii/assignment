@@ -1,0 +1,7 @@
+M:\personal-projects\job-assignment\Tests\bin\Debug\net9.0\.msCoverageSourceRootsMapping_Tests
+M:\personal-projects\job-assignment\Tests\bin\Debug\net9.0\CoverletSourceRootsMapping_Tests
+M:\personal-projects\job-assignment\Tests\obj\Debug\net9.0\Tests.csproj.AssemblyReference.cache
+M:\personal-projects\job-assignment\Tests\obj\Debug\net9.0\Tests.GeneratedMSBuildEditorConfig.editorconfig
+M:\personal-projects\job-assignment\Tests\obj\Debug\net9.0\Tests.AssemblyInfoInputs.cache
+M:\personal-projects\job-assignment\Tests\obj\Debug\net9.0\Tests.AssemblyInfo.cs
+M:\personal-projects\job-assignment\Tests\obj\Debug\net9.0\Tests.csproj.CoreCompileInputs.cache

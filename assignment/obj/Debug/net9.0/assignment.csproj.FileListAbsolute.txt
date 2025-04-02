@@ -1,0 +1,14 @@
+M:\personal-projects\job-assignment\assignment\bin\Debug\net9.0\assignment.exe
+M:\personal-projects\job-assignment\assignment\bin\Debug\net9.0\assignment.deps.json
+M:\personal-projects\job-assignment\assignment\bin\Debug\net9.0\assignment.runtimeconfig.json
+M:\personal-projects\job-assignment\assignment\bin\Debug\net9.0\assignment.dll
+M:\personal-projects\job-assignment\assignment\bin\Debug\net9.0\assignment.pdb
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.GeneratedMSBuildEditorConfig.editorconfig
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.AssemblyInfoInputs.cache
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.AssemblyInfo.cs
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.csproj.CoreCompileInputs.cache
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.dll
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\refint\assignment.dll
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.pdb
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\assignment.genruntimeconfig.cache
+M:\personal-projects\job-assignment\assignment\obj\Debug\net9.0\ref\assignment.dll
